@@ -1,0 +1,108 @@
+      @font-face {
+    font-family: kawaii;
+    src: url(https://cdn.jsdelivr.net/gh/entraptadoeztech/cool-indie-site@refs/heads/main/assets/mochibop.bold-demo.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(https://cdn.jsdelivr.net/gh/entraptadoeztech/cool-indie-site@refs/heads/main/assets/Poppins-Regular.ttf);
+}
+
+html, body {
+    margin: 0; /* this is to remove any margins to make the image fullscreen */
+    min-height: 100vh; /* this basically makes it cover the whole page */
+    overflow: hidden; /* this removes the STUPID FUCKING gray bar above the image */
+    padding: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+body {
+    
+    background: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@refs/heads/main/assets/extra/cutee.jpg');
+    background-size: cover;
+    background-position: center;
+     cursor: url('https://cdn.jsdelivr.net/gh/entraptadoeztech/cool-indie-site@refs/heads/main/assets/cursor.png'), auto;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5); /* this adds a color overlay to the image */
+    position: relative;
+    z-index: 1
+}
+
+h1 {
+    position: relative;
+    font-family: kawaii;
+    text-align: center;
+    color: #FF8FFF;
+    top: -10px;
+    z-index: 3;
+}
+
+p {
+    font-family: 'Poppins';
+    text-align: center;
+    color: #FF8FFF;
+}
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 4;
+}
+
+.top {
+  position: absolute;
+  background: rgba(52, 52, 52, 0.668);
+  z-index: 2;
+  height: 56px;  
+  width: 100%;
+  top: 0px;
+}
+
+.button {
+    position: relative;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #000000;
+    padding: 12px 25px;
+    z-index: 3;
+    top: -73px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.buttonhl {
+    position: relative;
+    background-color: #3e0078;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #9e7bff;
+    padding: 12px 25px;
+    z-index: 3;
+    top: -73px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.flags-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: 6px;
+    padding: 6px 10px;
+    align-items: center;
+}
