@@ -25,7 +25,7 @@ html, body {
 
 body {
     
-    background: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@refs/heads/main/assets/extra/cutee.jpg');
+    background: url('./imgs/kuromi.webp');
     background-size: cover;
     background-position: center;
      cursor: url('https://cdn.jsdelivr.net/gh/entraptadoeztech/cool-indie-site@refs/heads/main/assets/cursor.png'), auto;
