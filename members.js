@@ -1,4 +1,4 @@
-// List of members. You need to update this by hand. 
+//Keep this updated with the lastest members
   const members = [
     {
      url: "https://git.entraptadoeztech.nya.je",
@@ -10,6 +10,12 @@
      url: "https://join.opsonnet.nya.je",
   title: "OPSONNET",
   description: "this is opsonnet",
+  buttonUrl: "http://www.opsonnet.nya.je/assets/imgs/sonnet.jpeg",
+    },
+    {
+     url: "https://ww.opsonnet.nya.je",
+  title: "SONNET",
+  description: "this is sonnet",
   buttonUrl: "http://www.opsonnet.nya.je/assets/imgs/sonnet.jpeg",
     }
   ];
