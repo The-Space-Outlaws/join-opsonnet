@@ -13,7 +13,7 @@
   buttonUrl: "http://www.opsonnet.nya.je/assets/imgs/sonnet.jpeg",
     },
     {
-     url: "https://ww.opsonnet.nya.je",
+     url: "https://www.opsonnet.nya.je",
   title: "SONNET project",
   description: "this is sonnet",
   buttonUrl: "http://www.opsonnet.nya.je/assets/imgs/sonnet.jpeg",
