@@ -13,8 +13,10 @@ html, body {
     min-height: 100vh; /* this basically makes it cover the whole page */
     overflow: hidden; /* this removes the STUPID FUCKING gray bar above the image */
     padding: 0;
-    cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@refs/heads/main/assets/imgs/push.gif'), pointer;
     width: 100%;
+}
+html{
+      cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@refs/heads/main/assets/imgs/push.gif'), auto;
 }
 
 .nav {
