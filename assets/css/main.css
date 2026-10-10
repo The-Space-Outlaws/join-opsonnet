@@ -27,9 +27,9 @@ html, body {
 body {
     
     background: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/join-opsonnet@refs/heads/main/assets/imgs/ls.gif');
+    cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@main/assets/imgs/push.gif'), pointer;
     background-size: cover;
     background-position: center;
-     cursor: url('https://cdn.jsdelivr.net/gh/entraptadoeztech/cool-indie-site@refs/heads/main/assets/cursor.png'), auto;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5); /* this adds a color overlay to the image */
     position: relative;
