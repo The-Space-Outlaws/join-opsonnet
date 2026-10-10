@@ -44,10 +44,16 @@ h1 {
     top: -10px;
     z-index: 3;
 }
-
-button:active {
-  cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@refs/heads/main/assets/imgs/heart.png'), move;
+/* Add cursor for links */
+a {
+    cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@main/assets/imgs/push.gif'), pointer;
 }
+
+/* Add cursor for button hover */
+button:hover {
+    cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@main/assets/imgs/heart.png'), pointer;
+}
+
 input[type="text"], textarea {
   cursor: url('https://cdn.jsdelivr.net/gh/The-Space-Outlaws/SONNET-site@refs/heads/main/assets/imgs/wand.png'), text;
 }
